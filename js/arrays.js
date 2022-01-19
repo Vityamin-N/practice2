@@ -22,7 +22,33 @@
 // // Result: ["a", "b", "c", "a", "b", "c", "g", "h"];
 
 
-const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const b = a.splice(5, 3, "0", "0", "0");
-console.log(a);
-// Result: [1, 2, 3, 4, 5, 0, 0, 0, 9, 10];
+// const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const b = a.splice(5, 3, "0", "0", "0");
+// console.log(a);
+// // Result: [1, 2, 3, 4, 5, 0, 0, 0, 9, 10];
+
+
+// const a = [1, 2, [3, 4], [5, 6], 7];
+// // let result = [];
+// // for (const i of a){
+// //     if(Array.isArray(i)){
+// //         result.push(i[0], i[1]);
+// //     } else{ result.push(i);}
+// // }
+// // console.log(result);
+
+//     const result = a.flat();
+//     console.log(result);
+// // Result: [1, 2, 3, 4, 5, 6, 7]
+
+
+const a = ['a', 'k', 'n', 'h', 'n', 'n', 'k'];
+// let result;
+// for (let i = 0; i < a.length; i += 1) {
+//   if (a[i] === "n") {
+//     result = i;
+//   }
+// }
+const result = a.lastIndexOf('n');
+console.log('index last "n": ', result);
+// Result: найти индекс, на котором последний раз встречается буква n
