@@ -97,3 +97,25 @@
 // console.log(atTheOldToad.potions);
 // atTheOldToad.updatePotionName("Stone skin", "Invulnerability potion");
 // console.log(atTheOldToad.potions);
+
+// //Добавление значения парным элементам массива
+// function changeEven(numbers, value) {
+//     // Change code below this line
+//     const newArray = [];
+//     numbers.forEach(element => {
+//       if(element % 2 === 0){
+//         newArray.push(element + value);
+//       }  
+//     });
+//     return newArray;
+
+//     const changeEvenNumbers = addEven(numbers, value);
+//     console.log(addEven([1, 2, 3, 4, 5]));
+//     // for (let i = 0; i < numbers.length; i += 1) {
+//     //   if (numbers[i] % 2 === 0) {
+//     //     numbers[i] = numbers[i] + value;
+//     //   }
+//     // }
+//     // Change code above this line
+// }
+// console.log(changeEven([1, 2, 3, 4, 5], 10));
