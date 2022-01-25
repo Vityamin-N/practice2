@@ -119,3 +119,16 @@
 //     // Change code above this line
 // }
 // console.log(changeEven([1, 2, 3, 4, 5], 10));
+
+// //Рассчет суммы среднего времени каждого игрока
+// const players = [
+//     { name: "Mango", playtime: 1270, gamesPlayed: 4 },
+//     { name: "Poly", playtime: 469, gamesPlayed: 2 },
+//     { name: "Ajax", playtime: 690, gamesPlayed: 3 },
+//     { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
+//   ];
+//   // Change code below this line
+  
+//   const totalAveragePlaytimePerGame = players.reduce((lastValue, playerTime) => {return (lastValue + (playerTime.playtime/playerTime.gamesPlayed));
+//   }, 0);
+//   console.log(totalAveragePlaytimePerGame);
